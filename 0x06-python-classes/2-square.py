@@ -1,17 +1,25 @@
 #!/usr/bin/python3
-"""creating a square class with exceptions"""
+"""Defines a class Square"""
 
 
 class Square:
-    """class with an integer attribute size.
-    size must be a private attribute
-    exceptions for TypeError and ValueError must
-    be included in instance with custom messages"""
+    """
+    Class that defines properties of square by: (based on 1-square.py).
 
+    Attributes:
+        size: size of a square (1 side).
+    """
     def __init__(self, size=0):
+        """Creates new instances of square.
+
+        Args:
+            size: size of the square (1 side).
+        """
+        self.__size = size
+
         if not isinstance(size, int):
-            """handle exceptions then initialize data"""
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
-        self.__size = size
+        else:
+            self.__size = size
