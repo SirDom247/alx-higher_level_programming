@@ -1,4 +1,4 @@
-#1/usr/bin/node
+#!/usr/bin/node
 
 const process = require('process');
 let message;
