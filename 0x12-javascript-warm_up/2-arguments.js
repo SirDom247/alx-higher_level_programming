@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// Prints a message depending of the number of arguments passed
 const argsLength = process.argv.length - 2;
 
 if (argsLength === 0) {
