@@ -8,3 +8,4 @@ if (argsLength === 0) {
 } else {
 	message = "Arguments found";
 }
+console.log(messge);
