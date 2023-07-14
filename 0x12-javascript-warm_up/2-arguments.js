@@ -1,10 +1,10 @@
 #!/usr/bin/node
-const argsLength = process.argv.length;
-
+const argsLength = process.argv.length - 2;
+let messsage;
 if (argsLength === 0) {
-  console.log("No argument");
+	message = "No argumebt";
 } else if (argsLength === 1) {
-  console.log("Argument found");
+	message = "Argument found";
 } else {
-  console.log("Arguments found");
+	message = "Arguments found";
 }
