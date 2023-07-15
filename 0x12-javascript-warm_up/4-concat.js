@@ -1,4 +1,5 @@
 #!/usr/bin/node
-// A script that concatenates the values of two arguments passed to it
+const arg0 = process.argv[2];
+const arg1 = process.argv[3];
 
-console.log(`${process.argv[2]} is ${process.argv[3]}`);}
+console.log(arg0 + ' is ' + arg1);
