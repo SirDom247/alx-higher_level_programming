@@ -1,11 +1,12 @@
 #!/usr/bin/node
-// A script to output  My number: <first argument converted in integer> if the first argument can be converted to an integer: If the argument can’t be converted to an integer, print “Not a number”
-
-const argument = process.argv[2];
-
-const parsedNumber = parseInt(argument);
-
-if (!isNaN(parsedNumber)) {
-  console.log(`My number: ${parsedNumber}`);
-} else {
-  console.log("Not a number";
+const process = require('process');
+let number;
+let message = 'Not a number';
+if (process.argv.length > 2) {
+  number = parseInt(process.argv[2]);
+  if (!isNaN(number)) {
+    number = String(number);
+    message = `My number: ${number}`;
+  }
+}
+console.log(message);
