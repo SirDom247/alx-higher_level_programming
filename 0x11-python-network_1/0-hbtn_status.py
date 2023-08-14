@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """This script fetches https://alx-intranet.hbtn.io/status using urllib package only"""
-import urllib
+from urllib import request
 
 if __name__ == "__main__":
     with request.urlopen('https://alx-intranet.hbtn.io/status') as res:
