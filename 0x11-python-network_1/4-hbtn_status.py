@@ -6,9 +6,9 @@
 """
 import requests
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
-    html = requests.get('https://alx-intranet.hbtn.io/status')
+    url = requests.get('https://alx-intranet.hbtn.io/status')
     print("Body response:")
-    print("\t- type: {}".format(html.text.__class__))
-    print("\t- content: {}".format(html.text))
+    print("\t- type: {}".format(url.text.__class__))
+    print("\t- content: {}".format(url.text))
