@@ -3,7 +3,9 @@
 """This is a script that:
 -  use the packages 'urllib' and 'sys' only
 - takes in a URL,
-- sends a request to the URL and displays the value of the X-Request-Id variable found in the header of the response.
+- sends a request to the URL
+- displays the value of the X-Request-Id variable
+  found in the header of the response.
 """
 from urllib import request
 from sys import argv
