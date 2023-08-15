@@ -4,8 +4,9 @@
 - use the package 'requests' only,
 - displaying the body of the response in 'tabulation before -' format.
 """
-from urllib import request, error
-from sys import argv
+import urllib.request
+import urllib.error
+import sys.argv
 
 if __name__ == "__main__":
     try:
