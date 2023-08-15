@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""A script that
+"""this is a script that
 - fetches https://alx-intranet.hbtn.io/status.
-- uses urlib package
+- uses urllib package only
+- displays contents in tabulation before - format
 """
 import urllib.request
 
