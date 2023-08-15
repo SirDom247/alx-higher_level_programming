@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-This is a Python script that takes 2 arguments in order to solve this challenge.
+This is a Python script 
+
+-that takes 2 arguments in order to solve this challenge.
 
 Usage: ./100-github_commits.py <repository name> <repository owner>
 """
